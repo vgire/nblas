@@ -45,8 +45,8 @@
       ],
       "libraries": [
         "-L/var/task/openblas",
-        "-Wl,-rpath /var/task/openblas",
-        "-lblas"
+        "-Wl,-rpath /var/task/openblas/lib",
+        "-lopenblas"
       ]
     }
   ]
